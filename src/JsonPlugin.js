@@ -14,7 +14,9 @@ class FromHttpJsonPlugin {
         this.Error = JsonPluginError;
         this._logger = this._validateLogger(logger);
 
-        this._options = {};
+        this._options = {
+            matchAll: false
+        };
     }
 
     /**
@@ -32,6 +34,10 @@ class FromHttpJsonPlugin {
      * @return {Boolean}
      */
     isMatch (sourcepath) {
+        if (this._options && this._options.matchAll) {
+            return true;
+        }
+
         return /^https?:\/\//.test(sourcepath);
     }
 
