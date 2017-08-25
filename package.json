@@ -48,7 +48,7 @@
     "tap": "10.x"
   },
   "dependencies": {
-    "maf-error": "0.9.x",
+    "maf-error": "1.2.x",
     "superagent": "3.5.x"
   },
   "nyc": {
