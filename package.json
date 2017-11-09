@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "maf-error": "1.2.x",
-    "superagent": "3.6.x"
+    "superagent": "3.8.x"
   },
   "nyc": {
     "all": true,
