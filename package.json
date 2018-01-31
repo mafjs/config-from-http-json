@@ -45,7 +45,7 @@
     "log4js-nested": "1.x",
     "maf-config": "1.x",
     "proxyquire": "1.x",
-    "tap": "10.x"
+    "tap": "11.x"
   },
   "dependencies": {
     "maf-error": "1.2.x",
