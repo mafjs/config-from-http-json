@@ -44,7 +44,7 @@
     "in-publish": "2.x",
     "log4js-nested": "1.x",
     "maf-config": "1.x",
-    "proxyquire": "1.x",
+    "proxyquire": "2.x",
     "tap": "10.x"
   },
   "dependencies": {
